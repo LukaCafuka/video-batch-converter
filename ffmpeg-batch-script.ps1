@@ -19,7 +19,7 @@ $codec = Read-Host "Enter the video codec name (visit https://ffmpeg.org/ffmpeg-
 
 $fps = Read-Host "Enter the framerate after conversion"
 
-$container = Read-Host "Enter the video container after conversion: (example... mp4, mkv, webm)"
+$container = Read-Host "Enter the video container after conversion (example... mp4, mkv, webm)"
 
 $quality = Read-Host "Enter the quality from 0 to 51 (0 - Lossless, 51 - Worst quality)"
 
